@@ -529,7 +529,6 @@ kbd {
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1350px;
-  
 }
 
 .row {
@@ -1057,9 +1056,8 @@ kbd {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 1fr;
-  -ms-grid-columns: (1fr) [5];
+
   grid-template-columns: repeat(5, 1fr);
-=
 }
 
 .cs-gap_30 {
@@ -3081,7 +3079,7 @@ kbd {
     grid-gap: 40px;
     padding-right: 20px;
   }
-  ..cs-iconbox.cs-style3 img{
+  .cs-iconbox.cs-style3 img {
     padding-right: 100px;
   }
 }
@@ -3375,7 +3373,7 @@ kbd {
   .cs-landing_footer p br {
     display: none;
   }
-  .container-pro{
+  .container-pro {
     display: flex;
     flex-direction: column;
     max-width: 500px;
@@ -5649,7 +5647,7 @@ kbd {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 1fr;
-  -ms-grid-columns: (1fr) [3];
+
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
@@ -5956,7 +5954,6 @@ kbd {
     margin-top: 40px;
   }
   .cs-hero.cs-style3 .cs-hero_categories {
-    -ms-grid-columns: (1fr) [6];
     grid-template-columns: repeat(6, 1fr);
   }
   .cs-hero.cs-style4 .cs-hero_in {
@@ -6014,7 +6011,6 @@ kbd {
     display: none;
   }
   .cs-hero.cs-style3 .cs-hero_categories {
-    -ms-grid-columns: (1fr) [3];
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
   }
@@ -6061,7 +6057,6 @@ kbd {
     bottom: 15px;
   }
   .cs-hero.cs-style3 .cs-hero_categories {
-    -ms-grid-columns: (1fr) [2];
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -6184,6 +6179,7 @@ kbd {
   padding-top: 1px;
   border-radius: 10px;
   text-align: center;
+  padding-bottom: 5px;
 }
 
 .cs-card.cs-style3 .cs-card_thumb {
@@ -6893,7 +6889,7 @@ kbd {
 @media screen and (max-width: 1199px) {
   .cs-grid_5 {
     margin-left: 0px;
-    -ms-grid-columns: (1fr) [3];
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -6907,14 +6903,12 @@ kbd {
 
 @media screen and (max-width: 767px) {
   .cs-grid_5 {
-    -ms-grid-columns: (1fr) [2];
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 575px) {
   .cs-grid_5 {
-    -ms-grid-columns: (1fr) [1];
     grid-template-columns: repeat(1, 1fr);
   }
   .cs-card.cs-style5 .cs-card_img {
@@ -6977,7 +6971,7 @@ kbd {
   -webkit-transition: all 0.4s ease;
   transition: all 0.2s ease;
 }
-.cs-iconbox.cs-style3 img{
+.cs-iconbox.cs-style3 img {
   border-radius: 20px;
 }
 .cs-iconbox.cs-style3:hover {
@@ -7748,15 +7742,14 @@ body.cs-dark .cs-modal_overlay {
 }
 /*# sourceMappingURL=style.css.map */
 
-.container-pro{
+.container-pro {
   display: flex;
   max-width: 1000px;
   height: 500px;
-  gap: 2em; 
-  padding-left: var(--bs-gutter-x,.75rem);
+  gap: 2em;
+  padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
-  margin-left: auto; 
+  margin-left: auto;
   padding-top: 5%;
   padding-bottom: 5%;
-
 }
