@@ -5517,22 +5517,23 @@ kbd {
 }
 
 .cs-hero.cs-style2 {
-  min-height: 700px;
+  min-height: 900px;
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
 .cs-hero.cs-style2 .cs-hero_text {
-  background: linear-gradient(
-    106.71deg,
-    rgba(255, 255, 255, 0.1) -3.43%,
-    rgba(255, 255, 255, 0) 106.32%
-  );
-  -webkit-backdrop-filter: blur(135px);
-  backdrop-filter: blur(135px);
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
   border-radius: 25px;
-  width: 52%;
-  padding: 50px;
+  width: 35%;
+  padding: 20px;
 }
 
 .cs-hero.cs-style2 .cs-hero_title {
