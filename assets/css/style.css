@@ -3079,9 +3079,6 @@ kbd {
     grid-gap: 40px;
     padding-right: 20px;
   }
-  .cs-iconbox.cs-style3 img {
-    padding-right: 100px;
-  }
 }
 
 @media screen and (max-width: 991px) {
@@ -6972,7 +6969,7 @@ kbd {
   transition: all 0.2s ease;
 }
 .cs-iconbox.cs-style3 img {
-  border-radius: 20px;
+  border-radius: 18px;
 }
 .cs-iconbox.cs-style3:hover {
   -webkit-transform: translateY(-3px);
@@ -7752,4 +7749,20 @@ body.cs-dark .cs-modal_overlay {
   margin-left: auto;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.cs-error_img {
+  border: 0;
+  max-width: 300px;
+  height: auto;
+}
+
+.cs-error_card {
+  padding-left: 37%;
+}
+
+@media screen and (max-width: 575px) {
+  .cs-error_card {
+    padding-left: 8%;
+  }
 }
