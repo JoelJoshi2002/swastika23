@@ -6973,7 +6973,8 @@ kbd {
 }
 .cs-iconbox.cs-style3:hover {
   -webkit-transform: translateY(-3px);
-  transform: translateY(-3px);
+  /* transform: translateZ(50px); */
+  scale: 1.1;
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_img {
@@ -7765,4 +7766,9 @@ body.cs-dark .cs-modal_overlay {
   .cs-error_card {
     padding-left: 8%;
   }
+}
+
+.footer-row {
+  width: 100%;
+  justify-content: space-between;
 }
