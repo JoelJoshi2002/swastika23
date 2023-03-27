@@ -631,6 +631,7 @@ kbd {
 .row > * {
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
 }
 
 .row-15 {
@@ -1244,7 +1245,7 @@ kbd {
 .cs-page_head:before {
   content: '';
   position: absolute;
-  height: 1px;
+  /* height: 1px; */
   width: 100%;
   left: 0;
   bottom: 0;
@@ -4954,6 +4955,8 @@ kbd {
     display: flex !important;
     flex-direction: row;
     justify-content: space-between !important;
+    align-items: center;
+    font-size: 1.3em;
   }
 
   .cs-nav .cs-nav_list > li {
@@ -5512,7 +5515,7 @@ kbd {
   margin-bottom: 35px;
   display: flex;
   flex-direction: row;
-  gap: 3em;
+  gap: 10em;
 }
 
 .cs-footer_social_btns {
@@ -5521,7 +5524,7 @@ kbd {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: -10px -10px -10px 80px;
+  margin: 35px -10px -10px 80px;
 }
 
 .cs-footer_social_btns a {
@@ -7477,6 +7480,9 @@ kbd {
 
 .cs-cta.cs-style1 .cs-cta_subtitle {
   margin-bottom: 22px;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.7em;
 }
 
 .cs-cta.cs-style1.cs-type1 .cs-cta_right {
@@ -8256,4 +8262,14 @@ body.cs-dark .cs-modal_overlay {
 .video-container iframe {
   aspect-ratio: 16 / 9;
   width: 100%;
+}
+
+/* text glow */
+
+.glow {
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 5px #fff,
+    0 0 42px rgb(177, 65, 16), 0 0 82px rgb(177, 65, 16),
+    0 0 92px rgb(177, 65, 16), 0 0 102px rgb(177, 65, 16),
+    0 0 151px rgb(177, 65, 16);
 }
