@@ -8283,3 +8283,7 @@ body.cs-dark .cs-modal_overlay {
 .home_subtitle {
   text-align: justify !important;
 }
+
+.cs_team {
+  margin-left: 0% !important;
+}
