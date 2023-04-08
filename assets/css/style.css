@@ -3561,6 +3561,9 @@ kbd {
   flex-direction: column;
 }
 
+.cs-card.cs-style4:hover {
+  scale: 1.05;
+}
 .cs-remove_overflow .slick-list {
   overflow: visible;
 }
