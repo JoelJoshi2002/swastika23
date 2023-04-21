@@ -7568,9 +7568,18 @@ kbd {
   }
 
   .cs-cta.cs-style1.cs-type1 .cs-cta_img {
-    padding-left: 0;
+    padding-left: 0 !important;
     width: 100%;
     text-align: left !important;
+    padding-right: 35% !important;
+    padding-top: 10%;
+  }
+  .cs-cta.cs-style1.cs-type1 .cs-cta_img .logo_img {
+    padding-left: 0 !important;
+    width: 100%;
+    text-align: left !important;
+
+    padding-top: 10%;
   }
 
   .cs-cta.cs-style1 .cs-cta_img {
@@ -8291,10 +8300,10 @@ body.cs-dark .cs-modal_overlay {
   margin-left: 0% !important;
 }
 
-.glass1{
-  background: rgba( 255, 255, 255, 0 ) !important;
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 3.5px );
--webkit-backdrop-filter: blur( 3.5px );
-border-radius: 10px;
+.glass1 {
+  background: rgba(255, 255, 255, 0) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
 }
