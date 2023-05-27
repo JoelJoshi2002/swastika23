@@ -3,6 +3,8 @@
 This is my personal project in collabration With a Fellow Developer for the Swastika College Fest , a Techno-cultural extravaganza. The website has been developed using HTML and CSS, showcasing my skills in web development and design.
 
 # Features
+## Live Demo:
+https://joeljoshi2002.github.io/swastika23/
 
 ## Home Page
 ![image](https://github.com/JoelJoshi2002/swastika23/blob/f58de9e62e3ec0f68f0364ee103267544d1defd9/Swastika23%20Pic/Screenshot%202023-05-27%20103803.png)
